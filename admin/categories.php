@@ -84,6 +84,7 @@
         url: 'api/getCategories.php',
         dataType: 'json',
         success: function(res){
+          console.log(res);
           if(res.code == 1){
             var data = res.data;
             var html = '';
